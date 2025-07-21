@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useState } from 'react';
 import Navbar from '@/components/navbar';
@@ -16,8 +16,8 @@ export default function AboutMe() {
       <div className="max-w-3xl mx-auto text-center space-y-6">
         <h1 className="text-4xl font-bold">About Me</h1>
         <p className="text-lg text-gray-300">
-          I'm a BS Information Technology student at St. Peter's College with hands-on experience in WordPress, Shopify, basic programming, and IT support.
-          I've built real skills through academic projects and a paid internship. I'm a fast learner, detail-oriented, and passionate about using technology to solve problems.
+          I&apos;m a BS Information Technology student at St. Peter&apos;s College with hands-on experience in WordPress, Shopify, basic programming, and IT support.
+          I&apos;ve built real skills through academic projects and a paid internship. I&apos;m a fast learner, detail-oriented, and passionate about using technology to solve problems.
         </p>
 
         {/* Toggle Buttons */}
@@ -28,14 +28,12 @@ export default function AboutMe() {
           >
             Educational Background
           </button>
-
           <button
             onClick={() => toggleSection('skills')}
             className="px-6 py-3 bg-gradient-to-r from-green-400 to-blue-500 text-white font-semibold rounded-full hover:scale-105 transition-transform duration-300"
           >
             Skills
           </button>
-
           <button
             onClick={() => toggleSection('projects')}
             className="px-6 py-3 bg-gradient-to-r from-yellow-400 to-pink-500 text-white font-semibold rounded-full hover:scale-105 transition-transform duration-300"
@@ -49,7 +47,7 @@ export default function AboutMe() {
           <div className="mt-8 text-left bg-[#1a1a3d] p-6 rounded-xl">
             <h2 className="text-2xl font-bold mb-2">Educational Background</h2>
             <ul className="list-disc pl-5 text-gray-300">
-              <li>St. Peter's College – BS Information Technology (Current)</li>
+              <li>St. Peter&apos;s College – BS Information Technology (Current)</li>
               <li>Senior High School – Accountancy and Business Management</li>
               <li>Junior High School – Laubach Institute</li>
             </ul>
