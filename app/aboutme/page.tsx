@@ -116,7 +116,7 @@ export default function AboutMe() {
                     </div>
                     <div className="flex items-center gap-2 text-gray-300 group-hover:text-gray-100 transition-colors duration-300">
                       <div className="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 opacity-70 group-hover:opacity-100 transition-opacity duration-300"></div>
-                      <span className="text-sm font-medium">React & Tailwind CSS</span>
+                      <span className="text-sm font-medium">Reactjs/Nextjs & Tailwind CSS</span>
                     </div>
                   </div>
 
