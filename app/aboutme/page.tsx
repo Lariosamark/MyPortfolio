@@ -203,7 +203,7 @@ export default function AboutMe() {
                 <span className="px-2 py-1 bg-blue-500 text-white text-xs rounded-full">Tailwind</span>
               </div>
               
-             
+            
             </div>
           </div>
           
